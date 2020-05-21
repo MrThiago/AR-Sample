@@ -48,7 +48,7 @@
                                         <rect key="frame" x="29" y="51" width="42" height="30"/>
                                         <state key="normal" title="AR Kit"/>
                                         <connections>
-                                            <action selector="pressedArKit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="814-n2-Dmm"/>
+                                            <segue destination="fcJ-lY-VhZ" kind="show" id="O8j-TX-pqa"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -66,6 +66,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-755" y="143"/>
+        </scene>
+        <!--Kit Controller-->
+        <scene sceneID="rTs-Ga-v6r">
+            <objects>
+                <viewController storyboardIdentifier="ARKitController" id="fcJ-lY-VhZ" customClass="ARKitController" customModule="AR_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YZI-4Q-b8a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DC-24-i2E">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6DC-24-i2E" firstAttribute="leading" secondItem="ejK-ZT-fzZ" secondAttribute="leading" id="JDh-Wg-x2u"/>
+                            <constraint firstItem="6DC-24-i2E" firstAttribute="top" secondItem="YZI-4Q-b8a" secondAttribute="top" id="bY6-QE-xah"/>
+                            <constraint firstItem="ejK-ZT-fzZ" firstAttribute="bottom" secondItem="6DC-24-i2E" secondAttribute="bottom" id="ccW-WX-Mu9"/>
+                            <constraint firstItem="ejK-ZT-fzZ" firstAttribute="trailing" secondItem="6DC-24-i2E" secondAttribute="trailing" id="fqn-YL-0F2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ejK-ZT-fzZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5yL-CM-sjW"/>
+                    <connections>
+                        <outlet property="sceneView" destination="6DC-24-i2E" id="vbJ-tE-ZvZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C71-qh-WMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30" y="143"/>
         </scene>
     </scenes>
 </document>

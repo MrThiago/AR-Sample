@@ -14,6 +14,8 @@
 		AF05FE2E2476987700A58986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF05FE2D2476987700A58986 /* Assets.xcassets */; };
 		AF05FE312476987700A58986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF05FE2F2476987700A58986 /* LaunchScreen.storyboard */; };
 		AF05FE3924769B3C00A58986 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AF05FE3824769B3C00A58986 /* toy_robot_vintage.usdz */; };
+		AF05FE5F2476A4E300A58986 /* ARKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05FE5E2476A4E300A58986 /* ARKitController.swift */; };
+		AF05FE612476A65D00A58986 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF05FE602476A65D00A58986 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AF05FE302476987700A58986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF05FE322476987700A58986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF05FE3824769B3C00A58986 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		AF05FE5E2476A4E300A58986 /* ARKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitController.swift; sourceTree = "<group>"; };
+		AF05FE602476A65D00A58986 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +66,10 @@
 				AF05FE242476987600A58986 /* AppDelegate.swift */,
 				AF05FE262476987600A58986 /* SceneDelegate.swift */,
 				AF05FE282476987600A58986 /* ViewController.swift */,
+				AF05FE5E2476A4E300A58986 /* ARKitController.swift */,
 				AF05FE2A2476987600A58986 /* Main.storyboard */,
 				AF05FE2D2476987700A58986 /* Assets.xcassets */,
+				AF05FE602476A65D00A58986 /* art.scnassets */,
 				AF05FE2F2476987700A58986 /* LaunchScreen.storyboard */,
 				AF05FE322476987700A58986 /* Info.plist */,
 			);
@@ -138,6 +144,7 @@
 			files = (
 				AF05FE3924769B3C00A58986 /* toy_robot_vintage.usdz in Resources */,
 				AF05FE312476987700A58986 /* LaunchScreen.storyboard in Resources */,
+				AF05FE612476A65D00A58986 /* art.scnassets in Resources */,
 				AF05FE2E2476987700A58986 /* Assets.xcassets in Resources */,
 				AF05FE2C2476987600A58986 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +160,7 @@
 				AF05FE292476987600A58986 /* ViewController.swift in Sources */,
 				AF05FE252476987600A58986 /* AppDelegate.swift in Sources */,
 				AF05FE272476987600A58986 /* SceneDelegate.swift in Sources */,
+				AF05FE5F2476A4E300A58986 /* ARKitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7Y682D9E6;
 				INFOPLIST_FILE = "AR Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7Y682D9E6;
 				INFOPLIST_FILE = "AR Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

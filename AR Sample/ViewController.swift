@@ -32,7 +32,4 @@ class ViewController: UIViewController, QLPreviewControllerDataSource  {
         previewController.dataSource = self
         present(previewController, animated: true, completion: nil)
     }
-    
-    @IBAction func pressedArKit(_ sender: Any) {
-    }
 }
