@@ -24,7 +24,7 @@ class ARKitController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        // Show plane poits
+        // Show Features points (plane surfaces)
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showPhysicsFields]
         
         // Automatically light up scenes

@@ -31,11 +31,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="HTl-51-u1Z">
-                                <rect key="frame" x="157" y="407.5" width="100" height="81"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="HTl-51-u1Z">
+                                <rect key="frame" x="141.5" y="375.5" width="131" height="145"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhc-9m-Pbs">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <state key="normal">
                                             <string key="title">AR Quick Look
 </string>
@@ -45,7 +46,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laF-3L-Xio">
-                                        <rect key="frame" x="29" y="51" width="42" height="30"/>
+                                        <rect key="frame" x="38" y="109" width="55" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <state key="normal" title="AR Kit"/>
                                         <connections>
                                             <segue destination="fcJ-lY-VhZ" kind="show" id="O8j-TX-pqa"/>
@@ -65,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-755" y="143"/>
+            <point key="canvasLocation" x="-755.07246376811599" y="142.63392857142856"/>
         </scene>
         <!--Kit Controller-->
         <scene sceneID="rTs-Ga-v6r">

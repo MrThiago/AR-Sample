@@ -25,7 +25,7 @@ class ViewController: UIViewController, QLPreviewControllerDataSource  {
         return url as QLPreviewItem
     }
 
-    //MARK: - CTAs
+    //MARK: - CTA
     
     @IBAction func pressedArQuickLook(_ sender: Any) {
         let previewController = QLPreviewController()
